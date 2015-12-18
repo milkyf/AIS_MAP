@@ -184,11 +184,8 @@ void lonlat(double lonX, double latY)//(経度,緯度)
     
 }
 
-//  CSVを取得する
-//      filename    読み込むファイル名
-//      table       読み込んだCSVの内容
-//      delimiter   区切り文字(今回はデフォルトでカンマ)
-//
+
+
 bool GetContents(const string& filename, vector<vector<string>>& table)
 {
     ifstream file(fname);
@@ -222,4 +219,7 @@ bool GetContents(const string& filename, vector<vector<string>>& table)
         }
         cout << endl;
     }
+    cout << "values[1]";
 }
+
+
