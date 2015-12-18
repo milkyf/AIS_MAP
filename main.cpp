@@ -4,8 +4,6 @@
 //#include <fstream>
 //#include <sstream>  // ※istringstreamを使うために必要
 
-bool GetContents(const string& filename, vector<vector<string>>& table, const char delimiter =',');
-
 //========================================================================
 int main( ){
 
