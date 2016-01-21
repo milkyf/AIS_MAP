@@ -14,6 +14,19 @@ private:
     
 public:
     ofImage img;
+    int winW,winH;//window size
+    
+    vector<vector<string>> values;
+    string str;
+    vector<string> inner;
+    
+    vector<int> Time;
+    vector<int> mmsi;
+    vector<double> londitude;
+    vector<double> latitude;
+    
+
+    
     void setup();
     void update();
 		void draw();
