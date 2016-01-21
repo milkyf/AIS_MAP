@@ -1,8 +1,6 @@
 #include "ofMain.h"
 #include "ofApp.h"
-//#include <vector>
-//#include <fstream>
-//#include <sstream>  // ※istringstreamを使うために必要
+
 
 //========================================================================
 int main( ){
